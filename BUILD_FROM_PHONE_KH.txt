@@ -1,0 +1,19 @@
+JINKO VEGAS PREMIUM — Build APK From Android Phone
+
+This is a companion app only. It does not change Gangstar Vegas money/diamonds/unlocks.
+UI stays the same black-purple JINKO design. Offline tracker works once installed.
+
+Method: GitHub Actions (internet required only for building)
+1. Create a NEW PUBLIC or PRIVATE repo on github.com (e.g. JINKO-Vegas).
+2. Upload all PROJECT CONTENTS, preserving folders, to the root of the repo.
+   Include hidden .github/workflows/build-apk.yml.
+   A mobile Git client or a terminal with git may help upload folders.
+3. In your repo, go to Actions -> Build JINKO Vegas Companion APK.
+4. Select Run workflow (or let a push on main/master trigger it).
+5. Once the build succeeds, download the artifact named JINKO-Vegas-Companion-APK.
+6. Extract the artifact ZIP to obtain app-debug.apk, then install on Android.
+   Android may ask you to allow installing apps from that file manager.
+
+Requirements: GitHub account; Android phone. APK is NOT included in this ZIP.
+Gradle 8.7, Android Gradle Plugin 8.6.1, Java 17, compileSdk 35.
+No official Gangstar Vegas data, currency, or saves are changed.
